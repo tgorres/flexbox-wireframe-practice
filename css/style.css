@@ -1,0 +1,27 @@
+body {
+    background-color: lightgrey;
+}
+.header {
+    display: flex;
+    color: white;
+    background-color: rgb(133, 8, 70);
+}
+.article-box {
+    display: flex;
+    background-color: green;    
+}
+ul {
+    /* display: flex; */
+    color: white;
+    background-color: red;
+}
+.aside {
+    display: flex;
+    color: white;
+    background-color: darkblue;
+}
+.footer {
+    display: flex;
+    color: white;
+    background-color: orange;    
+}
