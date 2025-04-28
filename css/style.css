@@ -47,9 +47,37 @@
 }
 
 @media (min-width: 1025px) {
+    .flexbox-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     .header {
-        width: 90vw;
-        height: 80px;
-        font-size: 28px;
+        width: 91%;
+        height: 10%;
+        font-size: 30px;
+        order: 0;
+        
+    }
+    .article-box {
+        width: 65%;
+        height: 60%;
+        order: 2;
+    }
+    .article {
+        width: 90%;
+        height: 20%;
+        font-size: 26px;
+    }
+    .aside {
+        width: 25%;
+        height: 60%;
+        font-size: 30px;
+        order: 1;
+    }
+    .footer {
+        order: 3;
+        width: 91%;
+        font-size: 30px;
+        height: 10%;
     }
 }
